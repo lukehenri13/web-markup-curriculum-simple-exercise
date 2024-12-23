@@ -4,117 +4,126 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curriculum Exercise</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8b68610afb.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div id="title">
-        <h1>Nome da Pessoa</h1>
-        <p>
-            <b>Nascimento:</b> <i>01/01/1970 </i> <br/>
-            <b>Email:</b> <i>nome@email.com</i> <br/>
-            <b>Telefone:</b> <i>(83) 99999-9999 </i>
-        </p>
+    <div class="container top">
+        <div id="person">
+            <h1 class="text-center">Nome da Pessoa <a href="#name"> !</a></h1>
+            <div id="image">
+                <img src="img/avatar.png" style="border-radius: 50%;">
+            </div>
+            <p>
+                <b>Nascimento:</b> <i>01/01/1970 </i> <br/>
+                <b>Email:</b> <i>nome@email.com</i> <br/>
+                <b>Telefone:</b> <i>(83) 99999-9999 </i>
+            </p>
+        </div>
+
+        <div id="objective">
+            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate reprehenderit fugiat, recusandae placeat quas et provident veniam impedit, commodi minus dignissimos, repellendus quaerat sint adipisci aut, debitis. Architecto minima, harum!
+                <a href="pages/resumo.html"> Leia mais <span class="material-icons"> launch </span></a></p>
+        </div>
+
+        <div id="summary">
+            <h2 class="subtitle">Sumário<a href="#summary"> !</a></h2>
+            <br/>
+            <ul>
+                <li><a href="#address">Endereço</a></li>
+                <li><a href="#experience">Experiência</a></li>
+                <li><a href="#skills">Competências</a></li>
+                <li><a href="#studies">Formação Acadêmica</a></li>
+            </ul>
+        </div>
+
+        <div id="address">
+            <h2 class="subtitle">Endereço <a href="#address"> !</a></h2>
+            <br/>
+            <ul>
+                <li> <b>Rua</b>
+                    <ul>
+                        <li> Av. 1º de Maio, 720 </li>
+                    </ul>
+                </li>
+                <li> <b>Cidade</b>
+                    <ul>
+                        <li> João Pessoa, PB </li>
+                    </ul>
+                </li>
+                <li> <b>Bairro</b>
+                    <ul>
+                        <li> Jaguaribe </li>
+                    </ul>
+                </li>
+            </ul>
+            <br/>
+            <a href="#" class="top">Topo</a>
+        </div>
+
+        <div id="experience">
+            <h2 class="subtitle">Experiência<a href="#experience"> !</a></h2>
+            <br/>
+            <ul>
+                <li> <a href="https://www.ifpb.edu.br/polodeinovacao" target="_blank">Polo Inovação do IFPB</a>
+                    <ul>
+                        <li>Desenvolvedor Full-Stack Pleno</li>
+                        <li>2023 - Atual</li>
+                    </ul>
+                </li>
+                <li> <a href="https://www.ifpb.edu.br" target="_blank">Reitoria do IFPB</a>
+                    <ul>
+                        <li>Desenvolvedor Front-end Junior</li>
+                        <li>2020 - 2023</li>
+                    </ul>
+                </li>
+            </ul>
+            <br/>
+            <a href="#" class="top">Topo</a>
+        </div>
+
+        <div id="skills">
+            <h2 class="subtitle">Competências<a href="#skills"> !</a></h2>
+            <br/>
+
+            <ul>
+                <li>JavaScript</li>
+                <li>CSS</li>
+                <li>HTML</li>
+                <li>XML</li>
+            </ul>
+
+            <br/>
+            <a href="#" class="top">Topo</a>
+        </div>
+
+        <div id="studies">
+            <h2 class="subtitle">Formação Acadêmica<a href="#studies"> !</a></h2>
+            <br/>
+            <a href="http://www.ifpb.edu.br/" target="_blank"> Instituto Federal de Educação, Ciência e Tecnologia da Paraiba </a>
+            <p> Mestrado Profissional em Informática <br/>
+                2016-Atual
+            </p>
+            <a href="http://www.ifpb.edu.br/" target="_blank"> Instituto Federal de Educação, Ciência e Tecnologia da Paraiba </a>
+            <p> Curso Superior em Tecnologia em Sistemas para Internet <br/>
+                2010-2013 
+            </p>
+            <a href="#" class="top">Topo</a>
+        </div>
+        <div id="social">
+            <a> <i class="fa-brands fa-square-facebook"></i></a>
+            <a> <i class="fa-brands fa-square-twitter"></i></a>
+            <a> <i class="fa-brands fa-linkedin"></i></a>
+        </div>
+
+        <footer class="text-center">
+            Lucas Henrique &copy; 2024
+        </footer>
+
     </div>
-    
-    <div id="image">
-        <img src="img/avatar.png" style="border-radius: 50%;">
-    </div>
-
-    <div id="objective">
-        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate reprehenderit fugiat, recusandae placeat quas et provident veniam impedit, commodi minus dignissimos, repellendus quaerat sint adipisci aut, debitis. Architecto minima, harum! <a href="pages/resumo.html"> Leia mais</a></p>
-    </div>
-
-    <div id="summary">
-        <h2 class="subtitle">Sumário</h2>
-        <hr/>
-        <br/>
-        <ul>
-            <li><a href="#address">Endereço</a></li>
-            <li><a href="#experience">Experiência</a></li>
-            <li><a href="#skills">Competências</a></li>
-            <li><a href="#studies">Formação Acadêmica</a></li>
-        </ul>
-    </div>
-
-
-    <div id="address">
-        <h2 class="subtitle">Endereço</h2>
-        <hr/>
-        <br/>
-        <ul>
-            <li> <b>Rua</b>
-                <ul>
-                    <li> Av. 1º de Maio, 720 </li>
-                </ul>
-            </li>
-            <li> <b>Cidade</b>
-                <ul>
-                    <li> João Pessoa, PB </li>
-                </ul>
-            </li>
-            <li> <b>Bairro</b>
-                <ul>
-                    <li> Jaguaribe </li>
-                </ul>
-            </li>
-        </ul>
-        <br/>
-        <a href="#title">Topo</a>
-    </div>
-
-    <div id="experience">
-        <h2 class="subtitle">Experiência</h2>
-        <hr/>
-        <br/>
-        <ul>
-            <li> <a href="https://www.ifpb.edu.br/polodeinovacao" target="_blank">Polo Inovação do IFPB</a>
-                <ul>
-                    <li>Desenvolvedor Full-Stack Pleno</li>
-                    <li>2023 - Atual</li>
-                </ul>
-            </li>
-            <li> <a href="https://www.ifpb.edu.br" target="_blank">Reitoria do IFPB</a>
-                <ul>
-                    <li>Desenvolvedor Front-end Junior</li>
-                    <li>2020 - 2023</li>
-                </ul>
-            </li>
-        </ul>
-        <br/>
-        <a href="#title">Topo</a>
-    </div>
-
-    <div id="skills">
-       <h2 class="subtitle">Competências</h2>
-       <hr/>
-       <br/>
-
-       <ul>
-        <li>JavaScript</li>
-        <li>CSS</li>
-        <li>HTML</li>
-        <li>XML</li>
-       </ul>
-
-       <br/>
-       <a href="#title">Topo</a>
-    </div>
-
-    <div id="studies">
-        <h2 class="subtitle">Formação Acadêmica</h2>
-        <hr/>
-        <br/>
-        <a class="ifpb" href="http://www.ifpb.edu.br/" target="_blank"> Instituto Federal de Educação, Ciência e Tecnologia da Paraiba </a>
-        <p> Mestrado Profissional em Informática <br/>
-            2016-Atual
-        </p>
-        <a class="ifpb" href="http://www.ifpb.edu.br/" target="_blank"> Instituto Federal de Educação, Ciência e Tecnologia da Paraiba </a>
-        <p> Curso Superior em Tecnologia em Sistemas para Internet <br/>
-            2010-2013 
-        </p>
-        <br/>
-        <a href="#title">Topo</a>
-    </div> 
-    &copy; 2024
 </body>
 </html>

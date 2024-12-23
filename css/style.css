@@ -1,0 +1,176 @@
+* {
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.container {
+
+    color: darkslategray;
+    font-family: Arial, sans-serif;
+    font-size: 17px;
+    margin: 3% 0px 5% 25%;
+    border: 1px solid gray;
+    max-width: 50%;
+    padding: 20px;
+
+}
+
+div {
+    margin-bottom: 20px;
+}
+
+#person h1 {
+    font-size: 30px;
+    font-family: "Audiowide", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.subtitle {
+    font-size: 24px;
+    background-color: lightskyblue;
+    color: darkblue;
+    border-radius: 5px;
+}
+
+.text-center {
+    text-align: center;
+    color: darkslategray;
+}
+
+#person h1 {
+    margin-bottom: 15px;
+    font-size: 30px;
+    color: darkblue;
+}
+
+#person p, #studies p, #data {
+    line-height: 45px;
+    margin-top: 10px;
+}
+
+#objective span {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+#objective p {
+    line-height: 1.5rem;
+}
+
+img {
+    border-radius: 50%;
+    width: 100px;
+}
+
+#imageResume {
+    width: 150px;
+}
+
+
+#address ol, #address li {
+    list-style-type: none;
+}
+
+#experience ol, #experience li {
+    list-style-type: none;
+}
+
+#return {
+    margin: auto;   
+}
+
+/* #returnImage {
+    width: 40px;
+    margin-bottom: 15px;
+} */
+
+.btn {
+    font-size: 1.3rem;
+}
+
+.btn:hover {
+    color: white;
+    background-color: darkblue;
+    text-decoration: none;
+}
+
+#social {
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+}
+
+.fa-square-facebook, .fa-linkedin {
+    color: navy;
+}
+
+.fa-square-twitter {
+    color: dodgerblue;
+}
+
+a {
+    color: darkblue;
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+    color: darkblue;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#person h1 a {
+    color: white;
+}
+
+#person h1 a:hover {
+    color: darkblue;
+}
+
+.subtitle a {
+    color: lightskyblue;
+}
+
+.subtitle a:hover {
+    color: darkblue;
+}
+
+#studies a[href="http://www.ifpb.edu.br/"]  {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#aboutMe {
+    line-height: 25px;
+}
+
+#aboutMe p {
+    margin-bottom: 10px;
+}
+
+@media print {
+    body, h1 {
+        color: black;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    #person h1 {
+        text-align: left;
+    }
+
+    .subtitle {
+        background-color: unset;
+    }
+
+    .subtitle a, a.top {
+        color: white;
+    }
+
+     /* {
+        color: white;
+    } */
+}
